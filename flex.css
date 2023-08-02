@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.left-container {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.left-container_body {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.left-container_header {
+    height: 100px;
+    width: 100px;
+    /* align-items: center; */
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.total {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.left-container_header span {
+    color: hsl(241, 100%, 89%);
+    font-size: 10px;
+}
+
+.reaction2 span {}
+
+
+
+/*
+
+.left-container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 20px;
+}
+
+*/
+.right-container {
+    /* float: right; */
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    flex-grow: 1;
+    /* border: 1px solid black; */
+}
+
+.right-container_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.144);
+    border-radius: 5px;
+    /* padding: 15px; */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsla(64, 100%, 55%, 0.178);
+    border-radius: 5px;
+
+}
+
+.memory p {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsla(241, 100%, 89%, 0.507);
+    border-radius: 5px;
+}
+
+.verbal p {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: hsla(241, 100%, 89%, 0.39);
+    border-radius: 5px;
+}
+
+.visual p {
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    background: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    border-radius: 150px;
+    padding: 10px;
+    width: 50%;
+}
