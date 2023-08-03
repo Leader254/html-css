@@ -9,9 +9,9 @@ body {
 }
 
 .main {
-    height: 35vh;
+    height: 60vh;
     width: 70%;
-    margin: 20% 20%;
+    margin: 10% 20%;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.39);
@@ -137,6 +137,10 @@ button {
     padding: 10px 30px;
     clear: both;
     width: 50%;
+}
+
+button :hover {
+    background: hsl(224, 30%, 40%);
 }
 
 /* Mobile Styles */
